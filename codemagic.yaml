@@ -5,7 +5,7 @@ workflows:
     instance_type: mac_mini_m1
     environment:
       node: v22
-  scripts:
+    scripts:
       - name: Install dependencies
         script: |
           npm install
